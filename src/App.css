@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+body{
+    font-family: Helvetica;
+    
+}
+.container{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+        /* /* left: calc(100%-30px);
+    top: calc(100%-20px);  */
+    background:#FFFF;
+    color: black !important;
+    height: 100%;
+    width: 200px;
+    transition: all 0.5s;
+    position: absolute; 
+    z-index: 1; 
+    /* overflow-y: hidden; */
+
+
+   
+
+}
+
+
+.navigations{
+    margin-left: 50px;
+    /* margin-bottom: 50px; */
+}
+
+/* element:hover{
+    background-color: #707070;
+} */
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+#bars{
+    display: flex;
+    font-size: 20px;
+    margin-left: 40px;
+    position: fixed;
+    align-items: center;
+    padding: 0.938rem 0.938rem 0 0.738rem;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 10px;
+
+
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    color: black;
+    font-size: x-large;
+}
+
+.link:hover{
+    background:navy;
+    color:white;
+    transition: all 0.5s;
+} 
+/* .link:active{
+    color:white;
+}  */
+.active{
+    background:navy;
+    color: white;
+
+} 
+.icon,.link_text{
+    font-size: 20px;
+    color:black;
+}
+
+
+.sectionCard{
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    width: 100%;
+}
+
+.demo{
+    background-color: white !important;
+    border-radius: 5px !important; 
+     color:black !important
+    
+
+}
+
+.demo:hover{
+    background-color: navy !important;
+  
+     color:white !important
+    
+
+}
