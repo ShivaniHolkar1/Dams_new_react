@@ -21,20 +21,23 @@ import {Bookmark} from './pages/Bookmark';
 import {ReactForm} from './pages/ReactForm';
 import Section from './pages/Section';
 import { Export } from './pages/Export';
-
+import Hello from "./components/Hello"
 
 
 const App = () => {
+  const port = process.env.PORT || 3000
+      console.log("kfjdksf",port)
   return (
     
     <BrowserRouter>
     <Navbar/>
       {/* <Section/>    */}
-
+<Hello/>
     
       <Sidebar>
       {/* <ReactForm/>     */}
       {/* <Export/> */}
+      
         
       <GlobalStyle/>
         <div className='navigations'>
